@@ -12,5 +12,5 @@ def binary_searcher(search_key, arr):
             high = mid-1
         elif search_key > arr[mid]:
             low = mid+1
+    return False
 
-return False
