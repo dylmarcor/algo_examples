@@ -1,6 +1,9 @@
 import random
 import datetime
 
+# set time for test
+start_time = datetime.datetime.now()
+
 def binary_searcher(search_key, arr):
     low = 0
     high = len(arr)-1
@@ -14,3 +17,6 @@ def binary_searcher(search_key, arr):
             low = mid+1
     return False
 
+# end time for test
+end_time = datetime.datetime.now()
+print(end_time - start_time)
